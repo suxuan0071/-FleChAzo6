@@ -6,19 +6,25 @@
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
-    "deploy":"bash deploy.sh"
+    "deploy": "bash deploy.sh"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/suxuan0071/-FleChAzo6.git"
   },
-  
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/suxuan0071/-FleChAzo6/issues"
   },
-  "homepage": "https://github.com/suxuan0071/-FleChAzo6#readme"
-  
+  "homepage": "https://github.com/suxuan0071/-FleChAzo6#readme",
+  "devDependencies": {
+    "@vuepress/plugin-pwa": "^1.8.2",
+    "vuepress": "^1.8.2"
+  },
+  "dependencies": {
+    "@vssue/api-github-v3": "^1.4.7",
+    "@vssue/api-github-v4": "^1.4.7",
+    "@vssue/vuepress-plugin-vssue": "^1.4.8"
+  }
 }
-
